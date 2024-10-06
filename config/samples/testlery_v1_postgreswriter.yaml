@@ -1,0 +1,9 @@
+apiVersion: testlery.testlery.com/v1
+kind: PostgresWriter
+metadata:
+  labels:
+    app.kubernetes.io/name: postgres-writer-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: postgreswriter-sample
+spec:
+  # TODO(user): Add fields here

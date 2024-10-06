@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- testlery_v1_postgreswriter.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples
